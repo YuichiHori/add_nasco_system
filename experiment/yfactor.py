@@ -29,11 +29,11 @@ dir_name = name + '/' + date + '.necstdb'
 #dir_name_jpynb = name + '/' + date
 
 # set params.
-beam = '2r'
+beam = '2l'
 interval = 1
 sis_param = {
-    'initial_voltage' : 4,  # mV
-    'final_voltage' : 6.5,     # mV
+    'initial_voltage' : 3.7,  # mV
+    'final_voltage' : 4.8,     # mV
     'step' : 0.1              # mV
 }
 sis_arr = numpy.arange(sis_param['initial_voltage'], sis_param['final_voltage']+sis_param['step'], sis_param['step'])
