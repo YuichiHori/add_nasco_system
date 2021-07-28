@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="add_nasco_system" name="ms2830a" type="ms2830a.py" required="true" output="screen">
+    <param name="~host" value="192.168.100.106" />
+    <param name="~gpibport" value="2" />
+  </node>
+</launch>
